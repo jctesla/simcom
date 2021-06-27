@@ -1,0 +1,36 @@
+{
+  "name": "simcom",
+  "version": "0.3.0",
+  "description": "Talk to GSM modem SIMCOM via Node",
+  "homepage": "https://github.com/vittee/simcom",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vittee/simcom.git"
+  },
+  "keywords": [
+    "at",
+    "gsm",
+    "modem",
+    "serial",
+    "sms",
+    "mms",
+    "ussd",
+    "simcom",
+    "sim800",
+    "sim900"
+  ],
+  "author": {
+    "name": "Wittawas Nakkasem",
+    "email": "vittee@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/vittee/simcom/issues"
+  },
+  "dependencies": {
+    "pdu": ">= 1.1.0",
+    "q": ">=1.0.1",
+    "serialport": ">= 1.1.1",
+    "buffertools": "~2.1.2"
+  }
+}
